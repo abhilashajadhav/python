@@ -1,0 +1,6 @@
+F=open('abc.txt','at')
+F.write('Easy to learn\n')
+F=open('abc.txt','r')
+t=F.read()
+print(t)
+F.close()
